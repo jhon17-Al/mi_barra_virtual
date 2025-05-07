@@ -1,0 +1,50 @@
+#coctels {
+    background-image: url(../img/fon-coc2.png);
+    background-attachment: fixed;
+    color: white;
+    font-size: 17px;
+}
+/*descripción del coctel*/
+.des_coc{
+    text-align: center;
+    margin: 0 10%;
+}
+/*h2 del */
+.des_coc h2{
+    color: white;
+    padding: 3px;
+    margin: 7px 35%;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+/*estilo de la ilustración del coctel*/
+.img_coc{
+    width: 250px;
+    height: 250px;
+} 
+/*estilo de la lita desordenada*/
+.tabla td ul{
+    list-style: none;
+}
+/*estilo de la tabla*/
+.tabla{
+    width: 67%;
+    height: 20%;
+    text-align: left;
+    margin: 3% 15%;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+/*estilo de los td de la tabla*/
+.tabla tr td{
+    padding: 10px 20px;
+}
+.tabla tr th{
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.5) ;
+}
+/*estilo de los 'encabezados' de la tabla*/
+.enunciados{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+

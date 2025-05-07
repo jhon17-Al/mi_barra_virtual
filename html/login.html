@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body id="body_login">
+    <header>
+        <nav>  
+            <ul class="menu">
+                <img src="../img/icon.png" alt="icono" id="icon_menu">
+                <li class="boton_menu"><a href="home.html">INICIO</a></li>
+                <li class="boton_menu"><a href="coctels.html">COCTELES </a></li>
+                <li class="boton_menu"><a href="blog.html">BL0G</a></li>
+                <li class="boton_menu">SERCH</li>
+                <li class="boton_menu"><a href="login.html">REGISTRARSE</a></li>
+            </ul>
+        </nav>
+    </header>
+<section id="cont_form">     
+    <nav id="login">
+        <h2>FORMATO DE REGISTRO</h2>
+        <p>Con el fin de poder comprender tus intereses y ofrecer una mejor experiencia. 
+            Por favor, ingresa los siguientes datos :3 </p>
+        <form action="home.html">
+            <table class="login_table">
+                <tr>
+                    <td><label for="nombre">Nombre</label></td>
+                    <td><input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" pattern="[A-Za-z]+" required></td>
+                </tr>
+                <tr>
+                    <td><label for="edad">Edad</label></td>
+                    <td><input type="number" id="edad" name="edad" placeholder="Ingrese su edad" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">correo</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Ingrese su correo"></td>
+                </tr>
+                <tr>
+                    <td><label for="pais">pais</label></td>
+                    <td><select name="pais" id="pais">
+                        <option value="">--Seleccionar--</option>
+                        <option value="col"> colombia</option>
+                        <option value="ven">Venezuela</option>
+                        <option value="bra">Brazil</option>
+                        <option value="ecu">Ecuador</option>
+                        <option value="otro">Otro</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td> <button type="reset">Cancelar :(</button> </td>
+                    <td> <button type="submit">Enviar :)</button> </td>                  
+                </tr>
+            </table>
+        </form>
+    </nav>
+</section> 
+<section class="contacto">
+    <p>Siguenos en nuestras redes sociales!</p>
+        <ul>
+            <li><img src="../img/logo_face.png" alt="logo facebook"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+            <li><img src="../img/Instagram_icon.png" alt="logo_instagram"><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <p>Ecribenos</p>
+            <li><img src="../img/lofo_whats.jpg" alt="logo_whastapp"><a href="https://www.whatsapp.com" target="_blank">WhatsApp</a></li>
+        </ul>
+        <br><br>
+    <footer>
+        <p id="p_footer">&copy; 2025 Mi Sitio de Coctelería. Todos los derechos reservados.</p>
+    </footer> 
+</section>     
+</body>
+</html>

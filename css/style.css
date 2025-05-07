@@ -1,0 +1,85 @@
+@import "./home.css";
+@import "./login.css";
+@import "./coctels.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+                    /*estilo del menú de principal*/
+.menu {
+    background-color: rgba(255, 0, 0, 0.3);
+    width: autox;
+    border: 2px solid black;
+    list-style: none; /*quita los puntos del ul*/
+    display: flex;
+    margin: 0;
+    padding-left: 0%;
+}
+.menu li a{
+    color:white;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color:red;   
+}
+#icon_menu{
+    padding: 3px 5px;
+    margin-right: 53%;
+    width: 60px;
+    height: 60px;
+}
+/*CONTENEDOR DEL LISTADO*/
+nav {
+    text-align: center;
+   
+}
+/*opciones del menú*/
+.boton_menu {
+    color:white;
+    padding: 3px;
+    margin: 20px;
+}
+.boton_menu:hover{
+    color: red;
+    border: 2px solid red;
+}
+            /*ESTILO DE LA PARTE DE CONTACTO*/
+.contacto{
+    color:white;
+    text-align: left;   
+}
+.contacto p{
+    text-align: center;
+    font-size: 20px;
+    margin-right: 70%;
+    padding: 0;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+.contacto ul li img{
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    padding-top: 7px;
+    margin-right: 5px;
+}
+.contacto ul li a{
+    text-decoration: none;
+    padding: 10px 0;
+    color:aliceblue;
+}
+.contacto ul li a:hover{
+    color:red;
+}
+
+                /*ESTILO DEL FOOTER*/
+footer {
+    background-color: rgba(255, 0, 0, 0.3);
+    color: white;
+    padding: 10px;
+  }
+#p_footer {
+    margin: 0;
+    text-align: center;
+}
+

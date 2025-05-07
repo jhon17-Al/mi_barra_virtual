@@ -1,0 +1,38 @@
+/*fondo del login*/
+#body_login{
+    background-image: url(../img/Fon_log1.jpg);     
+}
+                    /*estilo del formato de login (nav)*/
+#login {
+    border: 5px solid white;
+    color:black;
+    padding:30px 50px;
+    margin-right: 20px;
+    background-color: rgb(122, 161, 122)
+  }
+   /*section*/
+ #cont_form{
+     padding: 10% 25%;
+  }
+ h2{
+     color: black;
+     background-color: rgb(215, 250, 238);
+     padding: 10px;
+ }
+                 /*texto introducturio del formulario*/
+ p{
+    padding: 10px;
+    text-align: justify;
+ }
+                /*estilo de la tabla en los elementos del form*/
+.login_table{
+    color: black;
+    background-color: rgb(215, 250, 238);
+    text-align: left;
+    margin-left: 24%;
+    padding: 10px 20px;
+ }
+ .login_table td {
+    padding: 2px 5px;
+}
+                    
